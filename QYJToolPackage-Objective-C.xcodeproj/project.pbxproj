@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		344ECB2921097AF6007951EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 344ECB2821097AF6007951EC /* AppDelegate.m */; };
+		344ECB2C21097AF6007951EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344ECB2B21097AF6007951EC /* ViewController.m */; };
+		344ECB2F21097AF6007951EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344ECB2D21097AF6007951EC /* Main.storyboard */; };
+		344ECB3121097AFB007951EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344ECB3021097AFB007951EC /* Assets.xcassets */; };
+		344ECB3421097AFB007951EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344ECB3221097AFB007951EC /* LaunchScreen.storyboard */; };
+		344ECB3721097AFB007951EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 344ECB3621097AFB007951EC /* main.m */; };
+		344ECB4121097AFB007951EC /* QYJToolPackage_Objective_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 344ECB4021097AFB007951EC /* QYJToolPackage_Objective_CTests.m */; };
+		344ECB4C21097AFB007951EC /* QYJToolPackage_Objective_CUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 344ECB4B21097AFB007951EC /* QYJToolPackage_Objective_CUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		344ECB3D21097AFB007951EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 344ECB1C21097AF6007951EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 344ECB2321097AF6007951EC;
+			remoteInfo = "QYJToolPackage-Objective-C";
+		};
+		344ECB4821097AFB007951EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 344ECB1C21097AF6007951EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 344ECB2321097AF6007951EC;
+			remoteInfo = "QYJToolPackage-Objective-C";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		344ECB2421097AF6007951EC /* QYJToolPackage-Objective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QYJToolPackage-Objective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		344ECB2721097AF6007951EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		344ECB2821097AF6007951EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		344ECB2A21097AF6007951EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		344ECB2B21097AF6007951EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		344ECB2E21097AF6007951EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		344ECB3021097AFB007951EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		344ECB3321097AFB007951EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		344ECB3521097AFB007951EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		344ECB3621097AFB007951EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		344ECB3C21097AFB007951EC /* QYJToolPackage-Objective-CTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QYJToolPackage-Objective-CTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		344ECB4021097AFB007951EC /* QYJToolPackage_Objective_CTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYJToolPackage_Objective_CTests.m; sourceTree = "<group>"; };
+		344ECB4221097AFB007951EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		344ECB4721097AFB007951EC /* QYJToolPackage-Objective-CUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QYJToolPackage-Objective-CUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		344ECB4B21097AFB007951EC /* QYJToolPackage_Objective_CUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYJToolPackage_Objective_CUITests.m; sourceTree = "<group>"; };
+		344ECB4D21097AFB007951EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		344ECB2121097AF6007951EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344ECB3921097AFB007951EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344ECB4421097AFB007951EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		344ECB1B21097AF6007951EC = {
+			isa = PBXGroup;
+			children = (
+				344ECB2621097AF6007951EC /* QYJToolPackage-Objective-C */,
+				344ECB3F21097AFB007951EC /* QYJToolPackage-Objective-CTests */,
+				344ECB4A21097AFB007951EC /* QYJToolPackage-Objective-CUITests */,
+				344ECB2521097AF6007951EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		344ECB2521097AF6007951EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				344ECB2421097AF6007951EC /* QYJToolPackage-Objective-C.app */,
+				344ECB3C21097AFB007951EC /* QYJToolPackage-Objective-CTests.xctest */,
+				344ECB4721097AFB007951EC /* QYJToolPackage-Objective-CUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		344ECB2621097AF6007951EC /* QYJToolPackage-Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				344ECB2721097AF6007951EC /* AppDelegate.h */,
+				344ECB2821097AF6007951EC /* AppDelegate.m */,
+				344ECB2A21097AF6007951EC /* ViewController.h */,
+				344ECB2B21097AF6007951EC /* ViewController.m */,
+				344ECB2D21097AF6007951EC /* Main.storyboard */,
+				344ECB3021097AFB007951EC /* Assets.xcassets */,
+				344ECB3221097AFB007951EC /* LaunchScreen.storyboard */,
+				344ECB3521097AFB007951EC /* Info.plist */,
+				344ECB3621097AFB007951EC /* main.m */,
+			);
+			path = "QYJToolPackage-Objective-C";
+			sourceTree = "<group>";
+		};
+		344ECB3F21097AFB007951EC /* QYJToolPackage-Objective-CTests */ = {
+			isa = PBXGroup;
+			children = (
+				344ECB4021097AFB007951EC /* QYJToolPackage_Objective_CTests.m */,
+				344ECB4221097AFB007951EC /* Info.plist */,
+			);
+			path = "QYJToolPackage-Objective-CTests";
+			sourceTree = "<group>";
+		};
+		344ECB4A21097AFB007951EC /* QYJToolPackage-Objective-CUITests */ = {
+			isa = PBXGroup;
+			children = (
+				344ECB4B21097AFB007951EC /* QYJToolPackage_Objective_CUITests.m */,
+				344ECB4D21097AFB007951EC /* Info.plist */,
+			);
+			path = "QYJToolPackage-Objective-CUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		344ECB2321097AF6007951EC /* QYJToolPackage-Objective-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 344ECB5021097AFB007951EC /* Build configuration list for PBXNativeTarget "QYJToolPackage-Objective-C" */;
+			buildPhases = (
+				344ECB2021097AF6007951EC /* Sources */,
+				344ECB2121097AF6007951EC /* Frameworks */,
+				344ECB2221097AF6007951EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QYJToolPackage-Objective-C";
+			productName = "QYJToolPackage-Objective-C";
+			productReference = 344ECB2421097AF6007951EC /* QYJToolPackage-Objective-C.app */;
+			productType = "com.apple.product-type.application";
+		};
+		344ECB3B21097AFB007951EC /* QYJToolPackage-Objective-CTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 344ECB5321097AFB007951EC /* Build configuration list for PBXNativeTarget "QYJToolPackage-Objective-CTests" */;
+			buildPhases = (
+				344ECB3821097AFB007951EC /* Sources */,
+				344ECB3921097AFB007951EC /* Frameworks */,
+				344ECB3A21097AFB007951EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				344ECB3E21097AFB007951EC /* PBXTargetDependency */,
+			);
+			name = "QYJToolPackage-Objective-CTests";
+			productName = "QYJToolPackage-Objective-CTests";
+			productReference = 344ECB3C21097AFB007951EC /* QYJToolPackage-Objective-CTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		344ECB4621097AFB007951EC /* QYJToolPackage-Objective-CUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 344ECB5621097AFB007951EC /* Build configuration list for PBXNativeTarget "QYJToolPackage-Objective-CUITests" */;
+			buildPhases = (
+				344ECB4321097AFB007951EC /* Sources */,
+				344ECB4421097AFB007951EC /* Frameworks */,
+				344ECB4521097AFB007951EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				344ECB4921097AFB007951EC /* PBXTargetDependency */,
+			);
+			name = "QYJToolPackage-Objective-CUITests";
+			productName = "QYJToolPackage-Objective-CUITests";
+			productReference = 344ECB4721097AFB007951EC /* QYJToolPackage-Objective-CUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		344ECB1C21097AF6007951EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Avalanching;
+				TargetAttributes = {
+					344ECB2321097AF6007951EC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					344ECB3B21097AFB007951EC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 344ECB2321097AF6007951EC;
+					};
+					344ECB4621097AFB007951EC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 344ECB2321097AF6007951EC;
+					};
+				};
+			};
+			buildConfigurationList = 344ECB1F21097AF6007951EC /* Build configuration list for PBXProject "QYJToolPackage-Objective-C" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 344ECB1B21097AF6007951EC;
+			productRefGroup = 344ECB2521097AF6007951EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				344ECB2321097AF6007951EC /* QYJToolPackage-Objective-C */,
+				344ECB3B21097AFB007951EC /* QYJToolPackage-Objective-CTests */,
+				344ECB4621097AFB007951EC /* QYJToolPackage-Objective-CUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		344ECB2221097AF6007951EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344ECB3421097AFB007951EC /* LaunchScreen.storyboard in Resources */,
+				344ECB3121097AFB007951EC /* Assets.xcassets in Resources */,
+				344ECB2F21097AF6007951EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344ECB3A21097AFB007951EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344ECB4521097AFB007951EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		344ECB2021097AF6007951EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344ECB2C21097AF6007951EC /* ViewController.m in Sources */,
+				344ECB3721097AFB007951EC /* main.m in Sources */,
+				344ECB2921097AF6007951EC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344ECB3821097AFB007951EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344ECB4121097AFB007951EC /* QYJToolPackage_Objective_CTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344ECB4321097AFB007951EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344ECB4C21097AFB007951EC /* QYJToolPackage_Objective_CUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		344ECB3E21097AFB007951EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 344ECB2321097AF6007951EC /* QYJToolPackage-Objective-C */;
+			targetProxy = 344ECB3D21097AFB007951EC /* PBXContainerItemProxy */;
+		};
+		344ECB4921097AFB007951EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 344ECB2321097AF6007951EC /* QYJToolPackage-Objective-C */;
+			targetProxy = 344ECB4821097AFB007951EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		344ECB2D21097AF6007951EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				344ECB2E21097AF6007951EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		344ECB3221097AFB007951EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				344ECB3321097AFB007951EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		344ECB4E21097AFB007951EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		344ECB4F21097AFB007951EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		344ECB5121097AFB007951EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5URQF5WZ4;
+				INFOPLIST_FILE = "QYJToolPackage-Objective-C/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github-Avalanching.QYJToolPackage-Objective-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		344ECB5221097AFB007951EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5URQF5WZ4;
+				INFOPLIST_FILE = "QYJToolPackage-Objective-C/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github-Avalanching.QYJToolPackage-Objective-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		344ECB5421097AFB007951EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5URQF5WZ4;
+				INFOPLIST_FILE = "QYJToolPackage-Objective-CTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github-Avalanching.QYJToolPackage-Objective-CTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYJToolPackage-Objective-C.app/QYJToolPackage-Objective-C";
+			};
+			name = Debug;
+		};
+		344ECB5521097AFB007951EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5URQF5WZ4;
+				INFOPLIST_FILE = "QYJToolPackage-Objective-CTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github-Avalanching.QYJToolPackage-Objective-CTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYJToolPackage-Objective-C.app/QYJToolPackage-Objective-C";
+			};
+			name = Release;
+		};
+		344ECB5721097AFB007951EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5URQF5WZ4;
+				INFOPLIST_FILE = "QYJToolPackage-Objective-CUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github-Avalanching.QYJToolPackage-Objective-CUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QYJToolPackage-Objective-C";
+			};
+			name = Debug;
+		};
+		344ECB5821097AFB007951EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5URQF5WZ4;
+				INFOPLIST_FILE = "QYJToolPackage-Objective-CUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github-Avalanching.QYJToolPackage-Objective-CUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QYJToolPackage-Objective-C";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		344ECB1F21097AF6007951EC /* Build configuration list for PBXProject "QYJToolPackage-Objective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344ECB4E21097AFB007951EC /* Debug */,
+				344ECB4F21097AFB007951EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		344ECB5021097AFB007951EC /* Build configuration list for PBXNativeTarget "QYJToolPackage-Objective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344ECB5121097AFB007951EC /* Debug */,
+				344ECB5221097AFB007951EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		344ECB5321097AFB007951EC /* Build configuration list for PBXNativeTarget "QYJToolPackage-Objective-CTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344ECB5421097AFB007951EC /* Debug */,
+				344ECB5521097AFB007951EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		344ECB5621097AFB007951EC /* Build configuration list for PBXNativeTarget "QYJToolPackage-Objective-CUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344ECB5721097AFB007951EC /* Debug */,
+				344ECB5821097AFB007951EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 344ECB1C21097AF6007951EC /* Project object */;
+}
