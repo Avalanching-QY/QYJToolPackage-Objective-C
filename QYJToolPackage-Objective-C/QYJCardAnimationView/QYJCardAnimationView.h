@@ -60,4 +60,6 @@ typedef NS_ENUM(NSInteger, QYJCardAnimationViewStyle) {
 
 - (void)reloadAllDataSource;
 
+- (void)updateStyle:(QYJCardAnimationViewStyle)style;
+
 @end

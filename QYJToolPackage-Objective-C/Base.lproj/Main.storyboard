@@ -11,7 +11,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--main-->
         <scene sceneID="gz6-ys-VB6">
             <objects>
                 <tableViewController id="bLG-zH-JeB" sceneMemberID="viewController">
@@ -19,18 +19,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableFooterView" contentMode="scaleToFill" id="535-a3-qKp">
+                            <rect key="frame" x="0.0" y="44" width="375" height="0.0"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
                         <sections>
                             <tableViewSection id="jup-za-InH">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" textLabel="uAP-ih-9ZU" style="IBUITableViewCellStyleDefault" id="UZj-ta-o6z">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="uAP-ih-9ZU" style="IBUITableViewCellStyleDefault" id="UZj-ta-o6z">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UZj-ta-o6z" id="Nj9-CN-VTP">
-                                            <rect key="frame" x="0.0" y="0.0" width="307" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="QYJCardAnimationView（卡片切换）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uAP-ih-9ZU">
-                                                    <rect key="frame" x="16" y="0.0" width="291" height="43.5"/>
+                                                    <rect key="frame" x="16" y="0.0" width="324" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -50,7 +55,7 @@
                             <outlet property="delegate" destination="bLG-zH-JeB" id="3Jo-Je-Z9c"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="giA-g8-Yqk"/>
+                    <navigationItem key="navigationItem" title="main" id="giA-g8-Yqk"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RBU-cI-MT2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -67,6 +72,19 @@
                         <viewLayoutGuide key="safeArea" id="vGc-Fo-u47"/>
                     </view>
                     <navigationItem key="navigationItem" id="a2I-ml-jSA">
+                        <nil key="title"/>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="faY-dH-Oh3">
+                            <rect key="frame" x="33" y="7.5" width="194.5" height="29"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segments>
+                                <segment title="Transverse"/>
+                                <segment title="PortraitDown"/>
+                                <segment title="PortraitUp"/>
+                            </segments>
+                            <connections>
+                                <action selector="changeStyle:" destination="tYZ-5v-re1" eventType="valueChanged" id="Oez-JA-f4h"/>
+                            </connections>
+                        </segmentedControl>
                         <rightBarButtonItems>
                             <barButtonItem style="done" systemItem="add" id="hiA-OF-ZIc">
                                 <connections>
@@ -88,7 +106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GGf-DA-vMB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="129" y="-4"/>
+            <point key="canvasLocation" x="128.80000000000001" y="-4.0479760119940034"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Og3-gs-U7y">

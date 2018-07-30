@@ -177,7 +177,39 @@ static CGFloat viewScale = 0.04f;
     return nil;
 }
 
+- (void)updateStyle:(QYJCardAnimationViewStyle)style {
+    _style = style;
+    
+    [self adjustViewsContainerConLayout];
+}
+
 #pragma mark - private
+
+- (void)adjustViewsContainerConLayout {
+    for (QYJCardAnimationNillView *view in self.subviews) {
+        [self addCachePoolWithView:view];
+        [view removeFromSuperview];
+    }
+    self.viewsContainer = @[].mutableCopy;
+    NSInteger displayCount = _maxCount - _currentCount > _displayCount ? _displayCount : _maxCount - _currentCount;
+    for (NSInteger i = 0; i < displayCount; i++) {
+        QYJCardAnimationNillView *view = nil;
+        if ([self.dataSource respondsToSelector:@selector(cardAnimationView:viewForRowAtIndexPath:)]) {
+            view = [self.dataSource cardAnimationView:self viewForRowAtIndexPath:self.currentCount + i];
+            view.frame = CGRectMake(0, 0, _viewSize.width, _viewSize.height);
+        }
+        view.center = CGPointMake(_viewCenterPoint.x + (i * [self horizontalIncrement]), _viewCenterPoint.y + (i * [self verticalIncrement]));
+        view.transform = CGAffineTransformMakeScale(1 - (i * viewScale), 1 - (i * viewScale));
+        [self viewAddGestureWithView:view];
+        [self.viewsContainer addObject:view];
+        [self addSubview:view];
+        [self sendSubviewToBack:view];
+    }
+    self.topView = self.viewsContainer[0];
+    self.topViewCenter = self.topView.center;
+    self.reloadAll = NO;
+    
+}
 
 - (void)viewAddGestureWithView:(UIView *)view {
     

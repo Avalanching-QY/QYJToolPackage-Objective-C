@@ -27,7 +27,7 @@
      QYJCardAnimationViewStylePortraitDown   = 1, // 纵向排列从下方添加
      QYJCardAnimationViewStylePortraitUp     = 2, // 纵向排列从上方添加
      */
-    _cardview = [[QYJCardAnimationView alloc] initWithStyle:QYJCardAnimationViewStylePortraitUp];
+    _cardview = [[QYJCardAnimationView alloc] initWithStyle:QYJCardAnimationViewStyleTransverse];
     _cardview.dataSource = self;
     _cardview.delegate = self;
     _cardview.frame = self.view.bounds;
@@ -50,6 +50,16 @@
     }
     [self.cardview reloadAllDataSource];
 }
+- (IBAction)changeStyle:(UISegmentedControl *)sender {
+    if (0 == sender.selectedSegmentIndex) {
+        [self.cardview updateStyle:QYJCardAnimationViewStyleTransverse];
+    } else if (1 == sender.selectedSegmentIndex) {
+        [self.cardview updateStyle:QYJCardAnimationViewStylePortraitDown];
+    } else if (2 == sender.selectedSegmentIndex) {
+        [self.cardview updateStyle:QYJCardAnimationViewStylePortraitUp];
+    }
+}
+
 
 #pragma mark - QYJCardAnimationViewDelegate
 
